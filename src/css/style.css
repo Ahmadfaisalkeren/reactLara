@@ -1,0 +1,26 @@
+.sidebar {
+    width: 200px;
+    height: 100vh; /* Adjust the height to cover the page */
+    background-color: gray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Add shadow effect */
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px;
+  }
+  
+  .sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-menu li.active a {
+    font-weight: bold;
+  }
+  
